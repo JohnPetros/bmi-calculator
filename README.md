@@ -48,7 +48,7 @@ This app was developed using the following technologies:
 
 ---
 
-## 🚀 How run this app?
+## 🚀 How to run this app?
 
 ### Prerequisites
 
