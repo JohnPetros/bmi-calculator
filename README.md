@@ -36,7 +36,7 @@
 
 ---
 
-## Tecnologias
+## Technologies
 
 This app was developed using the following technologies:
 
