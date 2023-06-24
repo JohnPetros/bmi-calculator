@@ -1,50 +1,45 @@
 <h1 align="center">
-    Product preview Card 🎴
+    BMI Calculator 🫃
 </h1>
 
 <div align="center">
    <a href="https://github.com/JohnPetros">
       <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-blueviolet">
    </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/product-preview-card">
-   <a href="https://github.com/JohnPetros/product-preview-card/commits/main">
-      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/product-preview-card">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/bmi-calculator">
+   <a href="https://github.com/JohnPetros/bmi-calculator/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/bmi-calculator">
    </a>
   </a>
    </a>
-   <a href="https://github.com/JohnPetros/product-preview-card/blob/main/LICENSE.md">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/product-preview-card">
+   <a href="https://github.com/JohnPetros/bmi-calculator/blob/main/LICENSE.md">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/bmi-calculator">
    </a>
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/product-preview-card?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/bmi-calculator?style=social">
 </div>
 
 <br>
 
-## 🖥️ Projeto
+## 🖥️ About the App
 
-**BMI Calculator** app, that means it calculates the body mass index of the user inputing his height (cm) and weigth (kg). This app is inspired by the challenge 
+**BMI Calculator** app, that means it calculates the body mass index of the user who informs his height (cm) and weigth (kg). This app is inspired by the challenge [**Results summary component**](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) from [Frontend-mentor](https://www.frontendmentor.io/), which is an online platform that offers hands-on challenges for developers to hone their frontend skills.
 
- Esse projeto corresponde ao desafio [**Product ppreview card component**](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) do [Frontend-mentor](https://www.frontendmentor.io/), que é uma plataforma online que oferece desafios práticos para desenvolvedores aprimorarem suas habilidades em front-end.
-
-### ⏹️ Demonstração
+### ⏹️ Demonstration
 
 ### Desktop 💻
+![Desktop preview](image.png)
 
-<div align="center">
-  <img width="750" alt="Imagem de demonstração do projeto versão desktop" src="./design/desktop-design.jpg" />
-</div>
 
 ### mobile 📱
 
-<div align="center">
-  <img width="500" alt="Imagem de demonstração do projeto versão mobile" src="./design/mobile-design.jpg" />
-</div>
-
+![Mobile preview](image-1.png)
 ---
 
 ## Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This app was developed using the following technologies:
+
+✔️ **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
 
 ✔️ **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 
@@ -52,27 +47,26 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## 🚀 Como rodar este projeto
+## 🚀 How run this app?
 
-### Pré-requesitos
+### Prerequisites
 
-Embora não seja obrigatório, para rodar a aplicação de uma forma mais prática, é bom ter o editor de código [VSCode](https://code.visualstudio.com/) junto com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), que pode ser instalada no marketplace do próprio VSCode.
+Although not required, to run the app more easily it's good to have [VSCode editor](https://code.visualstudio.com/) with [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), which can be installed on the VSCode marketplace
 
-#### 📟 Rodando a aplicação
-
+#### 📟 Running the application
 ```bash
 
-# Clone este repositório no terminal/cmd
-$ git clone https://github.com/JohnPetros/product-preview-card.git
+# Clone this repo
+$ git clone https://github.com/JohnPetros/bmi-calculator.git
 
-# Acesse a pasta do projeto
+# Access the app's folder
 $ cd productpreview-card
 
-# Abra a pasta no VSCode
+# Open the folder on VSCode
 $ code .
 
-# Execute o arquivo index com a extensão Live Server,
-# clicando com o botão direito sobre ele e depois em Open with Live Server
+# Run the index file using Live Server extension,
+# right clicking on it and then "Open with Live Server"
 
 ```
 
@@ -80,16 +74,16 @@ $ code .
 
 ## ⚙️ Deploy
 
-O deploy desse projeto foi realizado através do **[Github Pages](https://pages.github.com/)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](https://johnpetros.github.io/product-preview-card/)**.
+This app was deployed by **[Github Pages](https://pages.github.com/)**. This means you can access the running app by accessing this **[link](https://johnpetros.github.io/bmi-calculator/)**.
 
 ---
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This app is under MIT lincese. See the [LICENSE file](LICENSE) for more details.
 
 ---
 
 <p align="center">
-   Feito com 💜 by John Petros 👋🏻
+   Made with 💜 by John Petros 👋🏻
 </p>
