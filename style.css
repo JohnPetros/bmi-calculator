@@ -1,0 +1,236 @@
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--Pale-blue);
+}
+
+main.container {
+  width: 55rem;
+  max-width: 100%;
+
+  background-color: var(--White);
+  border-radius: 1.6rem 0 0 1.6rem;
+}
+
+.app {
+  background: linear-gradient(
+    to bottom,
+    var(--Light-slate-blue),
+    var(--Light-royal-blue)
+  );
+  color: var(--Pale-blue);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+  padding: 2.4rem;
+  border-radius: 0 0 1.6rem 1.6rem;
+}
+
+.app h1 {
+  font-size: 1.8rem;
+  color: var(--Light-lavender);
+}
+
+.app .result {
+  background: linear-gradient(
+    to bottom,
+    var(--Violet-blue),
+    var(--Persian-blue)
+  );
+  color: var(--Light-lavender);
+
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  margin-top: 1.2rem;
+}
+
+.result .value {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--White);
+}
+
+.app .controls {
+  margin-top: 1.2rem;
+}
+
+.controls .control {
+  display: grid;
+  grid-template-columns: 12rem auto;
+  gap: 1.2rem;
+}
+
+.controls .control + .control {
+  margin-top: 0.4rem;
+}
+
+.control input {
+  width: 100%;
+  border: none;
+}
+
+.control label {
+  font-size: 1.2rem;
+
+  color: var(--Light-lavender);
+}
+
+.control label .value {
+  font-weight: 800;
+  font-size: 2rem;
+
+  color: var(--White);
+
+  margin-right: 0.2rem;
+}
+
+.app .status {
+  font-size: 2rem;
+  margin-top: 1.2rem;
+}
+
+.app p {
+  margin-top: 0.8rem;
+
+  text-align: center;
+  line-height: 1.5;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  color: var(--Light-lavender);
+
+  max-width: 24rem;
+}
+
+.summary {
+  padding: 2.4rem;
+}
+
+.summary h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.summary dl {
+  display: grid;
+  gap: 2.4rem;
+
+  margin: auto 0;
+}
+
+.summary .status {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: var(--Pale-blue);
+}
+
+.status dt {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  font-size: 1.4rem;
+}
+
+.status dt i {
+  font-size: 1.8rem;
+}
+
+.status dt#underweight {
+  color: var(--Cobalt-blue);
+}
+
+.status dt#healthy {
+  color: var(--Green-teal);
+}
+
+.status dt#overweight {
+  color: var(--Orangey-yellow);
+}
+
+.status dt#obese {
+  color: var(--Light-red);
+}
+
+.status dd {
+  font-size: 1.4rem;
+  color: var(--Dark-gray-blue);
+}
+
+@media (min-width: 550px) {
+  main.container {
+    display: flex;
+
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.149);
+    overflow: hidden;
+  }
+
+  main.container > div {
+    width: 50%;
+  }
+
+  .app {
+    border-radius: 0 1.6rem 1.6rem 0;
+  }
+  .summary {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
