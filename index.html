@@ -23,17 +23,33 @@
 
         <div class="controls">
           <div class="control">
-            <input type="range" name="height" id="height" />
-            <label for="height"><span class="value">150</span>cm</label>
+            <input
+              type="range"
+              name="height"
+              id="height"
+              value="181"
+              min="10"
+              max="220"
+            />
+            <label for="height"><span class="value">181</span>cm</label>
           </div>
           <div class="control">
-            <input type="range" name="weight" id="weight" />
-            <label for="weight"><span class="value">67</span>kg</label>
+            <input
+              type="range"
+              name="weight"
+              id="weight"
+              value="82"
+              min="10"
+              max="150"
+            />
+            <label for="weight"><span class="value">74</span>kg</label>
           </div>
         </div>
 
-        <strong class="status">Great</strong>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <strong class="status-title">Great</strong>
+        <p class="status-message">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
       </div>
       <div class="summary">
         <h2>Summary</h2>
@@ -64,12 +80,13 @@
               <i class="ph-bold ph-skull"></i>
               Underweight
             </dt>
-            <dd>Below 18.5</dd>
+            <dd>below 18.5</dd>
           </div>
         </dl>
       </div>
     </main>
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="app.js"></script>
   </body>
 </html>
