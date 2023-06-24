@@ -32,14 +32,19 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 1.6rem;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: var(--Pale-blue);
 }
 
 main.container {
-  width: 375px;
+  width: 55rem;
   max-width: 100%;
 
   background-color: var(--White);
+  border-radius: 1.6rem 0 0 1.6rem;
 }
 
 .app {
@@ -54,12 +59,13 @@ main.container {
   flex-direction: column;
   align-items: center;
 
+  height: 100%;
   padding: 2.4rem;
   border-radius: 0 0 1.6rem 1.6rem;
 }
 
 .app h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--Light-lavender);
 }
 
@@ -88,13 +94,9 @@ main.container {
 }
 
 .result .value {
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: 700;
   color: var(--White);
-}
-
-.app .status {
-  font-size: 2.4rem;
 }
 
 .app .controls {
@@ -103,7 +105,7 @@ main.container {
 
 .controls .control {
   display: grid;
-  grid-template-columns: 1fr 1.2rem;
+  grid-template-columns: 12rem auto;
   gap: 1.2rem;
 }
 
@@ -132,6 +134,7 @@ main.container {
 }
 
 .app .status {
+  font-size: 2rem;
   margin-top: 1.2rem;
 }
 
@@ -150,34 +153,36 @@ main.container {
 }
 
 .summary {
-  padding: 1.2rem 2.4rem;
+  padding: 2.4rem;
 }
 
 .summary h2 {
   font-size: 1.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .summary dl {
   display: grid;
   gap: 2.4rem;
 
-  margin-top: 1.2rem;
+  margin: auto 0;
 }
 
 .summary .status {
   display: flex;
   justify-content: space-between;
 
-  border-radius: 1.2rem;
   padding: 1.2rem;
-
+  border-radius: 1.2rem;
   background-color: var(--Pale-blue);
 }
 
 .status dt {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 0.8rem;
+
+  font-size: 1.4rem;
 }
 
 .status dt i {
@@ -201,5 +206,31 @@ main.container {
 }
 
 .status dd {
+  font-size: 1.4rem;
   color: var(--Dark-gray-blue);
+}
+
+@media (min-width: 550px) {
+  main.container {
+    display: flex;
+
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.149);
+    overflow: hidden;
+  }
+
+  main.container > div {
+    width: 50%;
+  }
+
+  .app {
+    border-radius: 0 1.6rem 1.6rem 0;
+  }
+  .summary {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
