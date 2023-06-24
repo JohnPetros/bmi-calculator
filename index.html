@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="app">
+        <h1>Your BMI</h1>
+        <div class="result">
+          <span class="value">76</span>
+          <small>kg/m²</small>
+        </div>
+
+        <div class="controls">
+          <div class="control">
+            <input type="range" name="height" id="height" />
+            <label for="height"><span class="value">150</span>cm</label>
+          </div>
+          <div class="control">
+            <input type="range" name="weight" id="weight" />
+            <label for="weight"><span class="value">67</span>kg</label>
+          </div>
+        </div>
+
+        <strong>Great</strong>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae
+          rem delectus ab numquam ullam cupiditate, cum, distinctio temporibus
+          repellat, dolor consequuntur similique eum iusto doloribus nostrum
+          nihil in deleniti.
+        </p>
+      </div>
+      <div class="summary">
+        <h2>Summary</h2>
+        <dl>
+          <div class="status">
+            <dt>
+              <i class="ph ph-smiley-x-eyes"></i>
+              Obese
+            </dt>
+            <dd>30.0 and above</dd>
+          </div>
+          <div class="status">
+            <dt>
+              <i class="ph ph-warning-circle"></i>
+              Overweight
+            </dt>
+            <dd>25.0–29.9</dd>
+          </div>
+          <div class="status">
+            <dt>
+              <i class="ph ph-smiley"></i>
+              Healthy
+            </dt>
+            <dd>18.5 - 24.9</dd>
+          </div>
+          <div class="status">
+            <dt>
+              <i class="ph ph-skull"></i>
+              Underweight
+            </dt>
+            <dd>Below 18.5</dd>
+          </div>
+        </dl>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>
