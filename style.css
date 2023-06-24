@@ -1,0 +1,157 @@
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.6rem;
+
+  background-color: var(--Pale-blue);
+}
+
+main.container {
+  width: 375px;
+  max-width: 100%;
+
+  background-color: var(--White);
+}
+
+.app {
+  background: linear-gradient(
+    to bottom,
+    var(--Light-slate-blue),
+    var(--Light-royal-blue)
+  );
+  color: var(--Pale-blue);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 16px;
+  border-radius: 0 0 1.6rem 1.6rem;
+}
+
+.app h1 {
+  font-size: 1.6rem;
+  color: var(--Light-lavender);
+}
+
+.app .result {
+  background: linear-gradient(
+    to bottom,
+    var(--Violet-blue),
+    var(--Persian-blue)
+  );
+  color: var(--Light-lavender);
+
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  margin-top: 1.2rem;
+}
+
+.result .value {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--White);
+}
+
+.app .status {
+  font-size: 2.4rem;
+}
+
+.app .controls {
+  margin-top: 1.2rem;
+}
+
+.controls .control {
+  display: grid;
+  grid-template-columns: 1fr 1.2rem;
+  gap: 1.2rem;
+}
+
+.controls .control + .control {
+  margin-top: 0.4rem;
+}
+
+.control input {
+  width: 100%;
+}
+
+.control label {
+  font-size: 1.2rem;
+
+  color: var(--Light-lavender);
+}
+
+.control label .value {
+  font-weight: 800;
+  font-size: 2rem;
+
+  color: var(--White);
+
+  margin-right: 0.2rem;
+}
+
+.app .status {
+  margin-top: 1.2rem;
+}
+
+.app p {
+  margin-top: 0.8rem;
+
+  text-align: center;
+  line-height: 1.5;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  color: var(--Light-lavender);
+
+  max-width: 24rem;
+}
+
+.summary {
+  padding: 1.2rem 2.4rem;
+}
+
+.summary h2 {
+  font-size: 1.8rem;
+}
