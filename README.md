@@ -27,12 +27,13 @@
 ### ⏹️ Demonstration
 
 ### Desktop 💻
-![Desktop preview](image.png)
+![image](https://github.com/JohnPetros/bmi-calculator/assets/93893533/a4cd84c3-ed4c-45f6-814e-de017c012fb6)
 
 
 ### mobile 📱
+![image](https://github.com/JohnPetros/bmi-calculator/assets/93893533/7dcc470b-c491-4d80-8d1a-94454a5bb0e4)
 
-![Mobile preview](image-1.png)
+
 ---
 
 ## Tecnologias
