@@ -61,7 +61,7 @@ Although not required, to run the app more easily it's good to have [VSCode edit
 $ git clone https://github.com/JohnPetros/bmi-calculator.git
 
 # Access the app's folder
-$ cd productpreview-card
+$ cd ./bmi-calculator
 
 # Open the folder on VSCode
 $ code .
@@ -79,9 +79,9 @@ This app was deployed by **[Github Pages](https://pages.github.com/)**. This mea
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-This app is under MIT lincese. See the [LICENSE file](LICENSE) for more details.
+This app is under MIT lincese. See the [lincese file](LICENSE) for more details.
 
 ---
 
